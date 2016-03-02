@@ -1,0 +1,13 @@
+
+Django
+
+sudo dnf install python3 python3-django-doc python3-django-angular-doc python3-docs python3-django
+sudo pip install --upgrade pip
+sudo pip install Django --upgrade
+
+
+django-admin startproject dispenser
+
+python manage.py runserver
+python manage.py runserver 0.0.0.0:8000
+
